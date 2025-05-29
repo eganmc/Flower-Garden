@@ -1,2 +1,2 @@
-# GuardPoint
-A short simple website assisting with Safeguarding for adults.
+# FlowerGarden
+A short simple website detailing and explaining Safeguarding for adults.
