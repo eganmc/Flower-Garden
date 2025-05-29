@@ -1,2 +1,2 @@
-# FlowerGarden
+# Flower Garden
 A short simple website detailing and explaining Safeguarding for adults.
