@@ -3,3 +3,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.flowergarden-banner {
+    position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.35); z-index:0;
+}
+
+.flowergarden-background {
+    background: url('/assets/images/flower-garden-bg.png') center center/cover no-repeat; min-height: 50vh; position: relative;
+}
