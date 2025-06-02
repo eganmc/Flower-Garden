@@ -36,7 +36,117 @@
         </div>
     </nav>
 
-    <footer class="py-4 mt-5 bg-light border-top">
+    <section class="py-5">
+        <div class="community-stories-container bg-dark bg-gradient bg-opacity-50 rounded-4 shadow p-4 mb-3 mx-auto">
+            <h2 class="auyt display-4 text-center mb-5 text-white">Community Stories</h2>
+            <div id="storiesCarousel" class="carousel slide m-5" data-bs-ride="carousel" data-bs-interval="10000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center">
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-4 fs-4 nycd">"Safeguarding gave me the courage to speak up and seek help. I am no longer alone."</p>
+                                <figcaption class="blockquote-footer">Emily, 24</figcaption>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-4 fs-4 nycd">"Thanks to the support I found here, I was able to rebuild my confidence and trust."</p>
+                                <figcaption class="blockquote-footer">James, 31</figcaption>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-4 fs-4 nycd">"Safeguarding saved my life. The counsellors and community helped me through my darkest times."</p>
+                                <figcaption class="blockquote-footer">Aisha, 27</figcaption>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Safeguarding-->
+    <section class="py-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="p-3 p-md-4">
+                        <p class="zain mb-0 text-center">
+                            Safeguarding is tailored to protect people in vulnerable positions from the risk of radicalisation or harm, and encompasses all measures taken to prevent this. We are <em><strong>all</strong></em> joined in the endeavour of making the world a safer place to be, and each have our own stories.
+                            <a href="#" class=" link-pink fw-bold"
+                               data-bs-toggle="modal" data-bs-target="#storyModal">
+                               We'd love to hear yours.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10 mb-4">
+                    <div class="p-4">
+                        <p class="nycd-big mb-0">
+                            "Before I learned about safeguarding, I felt trapped and hopeless. The information and support I received here empowered me to take control of my situation and reach out for help. I am forever grateful to Flower Garden."
+                        </p>
+                        <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Sophie, 29</footer>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <div class="p-4">
+                        <p class="nycd-big mb-0">
+                            "Safeguarding truly saved my life. The stories I read inspired me to believe in a better future, and the advice from others gave me the tools I needed to move forward. Thank you for giving me hope."
+                        </p>
+                        <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Liam, 35</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-4 d-flex justify-content-center">
+        <button type="button" class="btn btn-lg btn-primary px-5 auyt story-button"
+            data-bs-toggle="modal" data-bs-target="#storyModal">
+            Tell us your Story
+        </button>
+    </div>
+
+    <div class="modal fade" id="storyModal" tabindex="-1" aria-labelledby="storyModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title auyt" id="storyModalLabel">Tell us your Story</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="userName" class="form-label">Your Name (optional)</label>
+                <input type="text" class="form-control" id="userName" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="userStory" class="form-label">Your Story</label>
+                <textarea class="form-control" id="userStory" rows="5" placeholder="Share your experience..."></textarea>
+              </div>
+            </form>
+            <div class="small mt-2">Your story may be featured on our site. Thank you for sharing!</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" style="background-color:#d2b6e5; border:none; color:#3d2c4a;">Send Story</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-4 mt-5 border-top footer-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 text-start">

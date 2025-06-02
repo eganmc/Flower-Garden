@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
+.nycd-big {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
 .zain {
   font-family: "Zain", sans-serif;
   font-weight: 300;
@@ -24,6 +31,9 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: url("/assets/images/flower-garden-sky.png") center center/cover no-repeat;
 }
 
@@ -57,6 +67,37 @@ body {
 
 .card {
   background-color: #f9eedd;
+}
+
+.footer-bg {
+  background-color: #f9eedd;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.blockquote {
+  color: #d2b6e5;
+}
+
+.blockquote-footer {
+  color: white;
+}
+
+.community-stories-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.story-button {
+  background-color:#d2b6e5; border:none; color:#3d2c4a;
+}
+
+.link-pink {
+  color: #8032b4;
 }
 
 @media screen and (max-width: 768px) {
