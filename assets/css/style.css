@@ -16,6 +16,13 @@
   font-style: normal;
 }
 
+.zain {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
 body {
   background: url("/assets/images/flower-garden-sky.png") center center/cover no-repeat;
 }
