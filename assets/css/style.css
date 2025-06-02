@@ -42,7 +42,8 @@ body {
 }
 
 .flowergarden-background {
-    background: url('/assets/images/flower-garden-bg2.png') center center/cover no-repeat; min-height: 500px; max-height: 500px;position: relative;
+    background: url('/assets/images/flower-garden-bg2.png') center center/cover no-repeat; 
+    min-height: 500px; max-height: 500px; position: relative;
     padding: 8rem 0;
     margin-top: -1.5rem;
 }
@@ -90,6 +91,14 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  max-height: 450px;
+}
+
+.stories-hero {
+  background: url("/assets/images/flower-garden-bg.png") center center/cover no-repeat;
+  min-height: 500px; max-height: 500px; position: relative;
+  padding: 8rem 0;
+  margin-top: -1.5rem;
 }
 
 .story-button {
