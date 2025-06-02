@@ -4,10 +4,36 @@
   font-style: normal;
 }
 
+body {
+  background-image: url(/assets/images/flower-garden-sky.png);
+}
+
 .flowergarden-banner {
-    position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.35); z-index:0;
+    position:absolute; background:rgba(0,0,0,0);;
 }
 
 .flowergarden-background {
-    background: url('/assets/images/flower-garden-bg.png') center center/cover no-repeat; min-height: 50vh; position: relative;
+    background: url('/assets/images/flower-garden-bg2.png') center center/cover no-repeat; min-height: 50vh; position: relative;
+    padding: 8rem 0;
+    margin-top: -1.5rem;
+}
+
+.logo-img {
+   height: 70px; width: auto; display: block; padding-left:0; margin-left:0;
+}
+.pink {
+  color: #d2b6e5;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #f9eedd;
+  box-shadow: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .flowergarden-background {
+    align-items: center; text-align: center;
+  }
 }
