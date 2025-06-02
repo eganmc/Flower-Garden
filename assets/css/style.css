@@ -1,11 +1,23 @@
-.auyt-regular {
+.auyt {
   font-family: "Annie Use Your Telescope", cursive;
   font-weight: 400;
   font-style: normal;
 }
 
+.pangolin {
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nycd {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  background-image: url(/assets/images/flower-garden-sky.png);
+  background: url("/assets/images/flower-garden-sky.png") center center/cover no-repeat;
 }
 
 .flowergarden-banner {
@@ -13,9 +25,13 @@ body {
 }
 
 .flowergarden-background {
-    background: url('/assets/images/flower-garden-bg2.png') center center/cover no-repeat; min-height: 50vh; position: relative;
+    background: url('/assets/images/flower-garden-bg2.png') center center/cover no-repeat; min-height: 500px; max-height: 500px;position: relative;
     padding: 8rem 0;
     margin-top: -1.5rem;
+}
+
+.nav-item {
+  font-size: 1.5rem;;
 }
 
 .logo-img {
@@ -32,8 +48,13 @@ body {
   border: none;
 }
 
+.card {
+  background-color: #f9eedd;
+}
+
 @media screen and (max-width: 768px) {
   .flowergarden-background {
     align-items: center; text-align: center;
+    padding-top: 5.7rem;
   }
 }
