@@ -112,7 +112,7 @@
         </div>
     </section>
     <div class="container my-4 d-flex justify-content-center">
-        <button type="button" class="btn btn-lg btn-primary px-5 auyt story-button"
+        <button type="button" class="btn btn-lg btn-secondary px-5 auyt story-button"
             data-bs-toggle="modal" data-bs-target="#storyModal">
             Tell us your Story
         </button>
@@ -126,22 +126,22 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form>
+            <form action="https://formdump.codeinstitute.net" method="POST">
               <div class="mb-3">
-                <label for="userName" class="form-label">Your Name (optional)</label>
-                <input type="text" class="form-control" id="userName" placeholder="Enter your name">
+                <label for="username" class="form-label">Your Name (optional)</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your name">
               </div>
               <div class="mb-3">
-                <label for="userStory" class="form-label">Your Story</label>
-                <textarea class="form-control" id="userStory" rows="5" placeholder="Share your experience..."></textarea>
+                <label for="userstory" class="form-label">Your Story</label>
+                <textarea class="form-control" id="userstory" name="userstory" rows="5" placeholder="Share your experience..." required></textarea>
               </div>
-            </form>
-            <div class="small mt-2">Your story may be featured on our site. Thank you for sharing!</div>
+            <div class="small mt-2">Thank you for sharing. We may feature your story on our website.</div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" style="background-color:#d2b6e5; border:none; color:#3d2c4a;">Send Story</button>
+            <button type="submit" class="btn btn-primary" style="background-color:#d2b6e5; border:none; color:#3d2c4a;">Send Story</button>
           </div>
+          </form>
         </div>
       </div>
     </div>
