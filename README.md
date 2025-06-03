@@ -11,22 +11,24 @@ The live website can be visited here.
 - [Flower Garden](#flower-garden)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
-- [Project Planning](#pages)
-  - [User Stories](#stories)
-  - [UX Design](#home)
-    - [Colours](#counselling)
-    - [Images](#about-us)
-    - [Fonts](#about-us)
-    - [Wireframes](#about-us)
-- [Features](#accessibility)
-  - [Fonts](#about-us)
-  - [Fonts](#about-us)
-  - [Fonts](#about-us)
-  - [Fonts](#about-us)
-- [Deployment](#technologies-used)
-- [AI Implementation](#about-us)
-- [Testing](#how-to-use)
-- [Credits](#contact)
+- [Project Planning](#project-planning)
+  - [User Stories](#user-stories)
+  - [UX Design](#ux-design)
+    - [Colours](#colours)
+    - [Images](#images)
+    - [Fonts](#fonts)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Modal](#modal)
+  - [Contact](#contact)
+  - [Responsiveness](#responsiveness)
+- [Deployment](#Deployment)
+- [AI Implementation](#ai-implementation)
+- [Testing](#testing)
+- [Credits](#credits)
+
+<br></br>
 
 # Project Planning
 
@@ -72,16 +74,16 @@ The wireframes used for this project were created in Balsamiq, and focus on outl
 
 **Desktop Wireframes**
 <p align="center">
-<img src="assets/images/desktop-wireframe1.png" alt="Flower Garden Palette" style="vertical-align:middle">
-<img src="assets/images/desktop-wireframe2.png" alt="Flower Garden Palette" style="vertical-align:middle">
-<img src="assets/images/desktop-wireframe3.png" alt="Flower Garden Palette" style="vertical-align:middle">
+<img src="assets/images/desktop-wireframe1.png" alt="Desktop Wireframe" style="vertical-align:middle">
+<img src="assets/images/desktop-wireframe2.png" alt="Desktop Wireframe" style="vertical-align:middle">
+<img src="assets/images/desktop-wireframe3.png" alt="Desktop Wireframe" style="vertical-align:middle">
 </p>
 <br></br>
 
 **Tablet Wireframes**
 
 <p align="center">
-<img src="assets/images/tablet-wireframe1.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle"> <img src="assets/images/tablet-wireframe2.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle">
+<img src="assets/images/tablet-wireframe1.png" alt="Tablet Wireframe" width="300px" style="vertical-align:middle"> <img src="assets/images/tablet-wireframe2.png" alt="Tablet Wireframe" width="300px" style="vertical-align:middle">
 </p>
 
 <br></br>
@@ -89,7 +91,7 @@ The wireframes used for this project were created in Balsamiq, and focus on outl
 **Phone Wireframes**
 
 <p align="center">
-<img src="assets/images/phone-wireframe1.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle"> <img src="assets/images/phone-wireframe2.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle">
+<img src="assets/images/phone-wireframe1.png" alt="Phone Wireframe" width="300px" style="vertical-align:middle"> <img src="assets/images/phone-wireframe2.png" alt="Phone Wireframe" width="300px" style="vertical-align:middle">
 </p>
 
 <br></br>
@@ -106,8 +108,28 @@ The bottom of each page features a Footer that carries links to social media, as
 
 ## Modal
 
-The Stories page of the website features a functional modal to input your (optional) name and age, along with your safeguarding survival story. The story has been made a required input, while the name/age is not.
+The Stories page of the website features a functional modal to input your (optional) name and age, along with your safeguarding survival story. The story has been made a required input, while the name/age is not. The modal has been made to output to Code Institute's Formdump website as a means of testing.
 
 ## Contact
 
-The Counselling page features a contact box with a fake phone number, fake hours of operation and a fake address. It also features an "Email us" button that directs the user to their default email service.
+The Counselling page features a contact box with a fake phone number, fake hours of operation and a fake address. It also features an "Email us" button that directs the user to their default email service, preparing a fake email recipient.
+
+## Responsiveness
+
+The website has been primarily made with Bootstrap, resulting in easily implemented responsive functionality with little necessity for media queries. However, in some areas responsiveness did have to be manually adjusted using CSS and media queries to ensure the final product was as close to the vision as possible.
+
+<br></br>
+
+# Deployment
+
+This Github project was created completely from scratch, utilising addons such as Live Preview and Live Server to track website functionality and progress. 
+
+I also did not deploy the project at all during development, trusting entirely on Live Server and preview addons to carry me through as I had very little in the way of scripted elements.
+
+# Testing
+
+Debugging was carried out regularly throughout development, either using AI or online code validators such as W3 Nu and W3C Jigsaw. Final checks after completion revealed no issues.
+
+<img src="assets/images/html-check.png" alt="Html validation image" style="vertical-align:middle">
+
+<img src="assets/images/css-check.png" alt="Css validation image" style="vertical-align:middle">
