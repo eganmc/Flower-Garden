@@ -53,3 +53,45 @@ User stories have been issued and further detailed under the project board, and 
 ### Colours
 
 For colour, I opted to go with soft, natural colours to emphasize both the theming of flowers and the gentle approach needed to handle vulnerable and fragile individuals. I wanted the website to exude a mature, sensible feeling while still approaching a difficult topic with a general aura of ease and comfort.
+
+<img src="assets/images/flower-garden-palette.png" alt="Flower Garden Palette" width="" style="vertical-align:middle">
+
+### Images
+
+I wanted the imagery to invoke feelings of calm and serenity, so in fitting with the theme I selected mostly natural backgrounds with flowers under a warm sunset or a light secluded mist. I only introduced animals or silhouettes of people into the images if I felt it was important to convey a feeling of togetherness and community in that feature of the site.
+
+I mainly used Microsoft Copilot to generate AI imagery for the site, and used Fontawesome to generate social media and navigation iconography. The images were heavily directed without much freedom on part of the AI to experiment in order to keep all imagery across the site cohesive and familiar.
+
+### Fonts
+
+Embedded from Google fonts, I ended up choosing a mixture of "Annie Use Your Telescope" and "Nothing You Could Do" to generate headings, titles and quotes, with "Zain" for most of the important paragraphs. This setup was chosen to incite an atmosphere of ease and relaxation, with handwritten fonts that still exuded a certain maturity heading the more "serious" dialogue displayed with Zain for readibility and ease of use.
+
+### Wireframes
+
+The wireframes used for this project were created in Balsamiq, and focus on outlining very key features with minimal clutter to allow for experimentation.
+
+**Desktop Wireframes**
+<p align="center">
+<img src="assets/images/desktop-wireframe1.png" alt="Flower Garden Palette" style="vertical-align:middle">
+<img src="assets/images/desktop-wireframe2.png" alt="Flower Garden Palette" style="vertical-align:middle">
+<img src="assets/images/desktop-wireframe3.png" alt="Flower Garden Palette" style="vertical-align:middle">
+</p>
+<br></br>
+
+**Tablet Wireframes**
+
+<p align="center">
+<img src="assets/images/tablet-wireframe1.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle"> <img src="assets/images/tablet-wireframe2.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle">
+</p>
+
+<br></br>
+
+**Phone Wireframes**
+
+<p align="center">
+<img src="assets/images/phone-wireframe1.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle"> <img src="assets/images/phone-wireframe2.png" alt="Flower Garden Palette" width="300px" style="vertical-align:middle">
+</p>
+
+<br></br>
+
+# Features
