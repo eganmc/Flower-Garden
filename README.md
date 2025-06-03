@@ -126,10 +126,36 @@ This Github project was created completely from scratch, utilising addons such a
 
 I also did not deploy the project at all during development, trusting entirely on Live Server and preview addons to carry me through as I had very little in the way of scripted elements.
 
+<br></br>
+
+# AI Implementation
+
+Throughout the entire project, I utilised Github Copilot in VS Code and Microsoft Copilot extensively to speed up development and creation of assets. AI was instrumental in the completion of my project before the given deadline.
+
+I would often create a very loose general structure, or idea of a feature, and allow the AI to build upon it. After which I would review the applied code and make the necessary changes myself. Nothing was committed to this project without being extensively reviewed and controlled and the AI was heavily guided. 
+
+I would also regularly quiz the AI on certain features and syntax, both to attempt to refine results and to help with my still developing knowledge of proper syntax.  Copilot was extremely useful, and was able to notice problems I was unable to and pull up an easy to implement solution while properly formatting the code to match it. It has proven to be an amazingly capable tool and general code assistant.
+
+<br></br>
+
 # Testing
 
 Debugging was carried out regularly throughout development, either using AI or online code validators such as W3 Nu and W3C Jigsaw. Final checks after completion revealed no issues.
 
+**Validator Testing**
+
 <img src="assets/images/html-check.png" alt="Html validation image" style="vertical-align:middle">
 
 <img src="assets/images/css-check.png" alt="Css validation image" style="vertical-align:middle">
+
+<br></br>
+
+**Lighthouse Testing**
+
+Performance scored at 75 in Lighthouse.
+
+Will definitely take a look at compressing or formatting generated images in future, the background seemed to be slowing the site down heavily.
+
+<img src="assets/images/lighthouse.png" alt="Lighthouse validation image" style="vertical-align:middle">
+
+<br></br>
