@@ -109,6 +109,25 @@ footer {
   color: #8032b4;
 }
 
+.counselling-hero {
+  background: url("/assets/images/flower-garden-bg3.png") center center/cover no-repeat;
+  min-height: 500px; max-height: 500px; position: relative;
+  padding: 8rem 0;
+  margin-top: -1.5rem;
+}
+
+.about-hero {
+  background: url("/assets/images/flower-garden-bg5.png") bottom center/cover no-repeat;
+  min-height: 500px; max-height: 500px; position: relative;
+  padding: 8rem 0;
+  margin-top: -1.5rem;
+}
+
+.navbar-nav {
+  align-items: end;
+  padding-right: 2rem;
+}
+
 @media screen and (max-width: 768px) {
   .flowergarden-background {
     align-items: center; text-align: center;
