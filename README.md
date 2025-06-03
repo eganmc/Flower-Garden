@@ -95,3 +95,19 @@ The wireframes used for this project were created in Balsamiq, and focus on outl
 <br></br>
 
 # Features
+
+## Navigation
+
+The navbar was made using Bootstrap, and is constructed to collapse on smaller screens into an expandable component. The logo has been incorporated into the navbar and functions as a link to the homepage. This navbar is present on all pages and contains links to every page on the website.
+
+There are also Bootstrap cards on the base of the homepage that function as fleshed out links to other areas of the website, as the homepage doesn't serve any other immediate function than that of a hub.
+
+The bottom of each page features a Footer that carries links to social media, as well as another link to the homepage in the center.
+
+## Modal
+
+The Stories page of the website features a functional modal to input your (optional) name and age, along with your safeguarding survival story. The story has been made a required input, while the name/age is not.
+
+## Contact
+
+The Counselling page features a contact box with a fake phone number, fake hours of operation and a fake address. It also features an "Email us" button that directs the user to their default email service.
