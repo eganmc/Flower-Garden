@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Garden</title>
+    <title>Flower Garden | Stories</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36b7eff789.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,156 +12,166 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light mb-4 p-0 pe-3">
-        <div class="container-fluid px-0">
-            <a class="navbar-brand" href="index.html">
-                <img src="/assets/images/flower-garden-logo3.png" alt="Flower Garden Logo" class="logo-img">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto pe-1 gap-4">
-                    <li class="nav-item">
-                        <a class="nav-link active auyt fw-bold" href="stories.html">Stories</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active auyt fw-bold" href="counselling.html">Counselling</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active auyt fw-bold" href="about.html">About us</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light mb-4 p-0 pe-3" aria-label="Main navigation">
+            <div class="container-fluid px-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/assets/images/flower-garden-logo3.png" alt="Flower Garden Logo" class="logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto pe-1 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active auyt fw-bold" href="stories.html">Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active auyt fw-bold" href="counselling.html">Counselling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active auyt fw-bold" href="about.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section class="py-5 stories-hero">
-        <div class="community-stories-container bg-dark bg-gradient bg-opacity-50 rounded-4 shadow p-4 mb-3 mx-auto">
-            <h2 class="auyt display-4 text-center mb-5 text-white">Community Stories</h2>
-            <div id="storiesCarousel" class="carousel slide m-5" data-bs-ride="carousel" data-bs-interval="10000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex flex-column align-items-center">
-                            <blockquote class="blockquote text-center">
-                                <p class="mb-4 fs-4 nycd">"Flower Garden gave me the courage to speak up and seek help. I am no longer alone."</p>
-                                <figcaption class="blockquote-footer">Emily, 24</figcaption>
-                            </blockquote>
+    <main>
+        <section class="py-5 stories-hero" aria-labelledby="community-stories-heading">
+            <div class="community-stories-container bg-dark bg-gradient bg-opacity-50 rounded-4 shadow p-4 mb-3 mx-auto">
+                <h1 id="community-stories-heading" class="auyt display-4 text-center mb-5 text-white">Community Stories</h1>
+                <div id="storiesCarousel" class="carousel slide m-5" data-bs-ride="carousel" data-bs-interval="10000" aria-label="Community Stories Carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex flex-column align-items-center">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-4 fs-4 nycd">"Flower Garden gave me the courage to speak up and seek help. I am no longer alone."</p>
+                                    <figcaption class="blockquote-footer">Emily, 24</figcaption>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-column align-items-center">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-4 fs-4 nycd">"Thanks to the support I found here, I was able to rebuild my confidence and trust."</p>
+                                    <figcaption class="blockquote-footer">James, 31</figcaption>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-column align-items-center">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-4 fs-4 nycd">"Safeguarding saved my life. The counsellors and community helped me through my darkest times."</p>
+                                    <figcaption class="blockquote-footer">Aisha, 27</figcaption>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex flex-column align-items-center">
-                            <blockquote class="blockquote text-center">
-                                <p class="mb-4 fs-4 nycd">"Thanks to the support I found here, I was able to rebuild my confidence and trust."</p>
-                                <figcaption class="blockquote-footer">James, 31</figcaption>
-                            </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-3" aria-labelledby="safeguarding-info-heading">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <div class="p-3 p-md-4">
+                            <h2 id="safeguarding-info-heading" class="visually-hidden">Safeguarding Information</h2>
+                            <p class="zain mb-0 text-center">
+                                Safeguarding is tailored to protect people in vulnerable positions from the risk of radicalisation or harm, and encompasses all measures taken to prevent this. We are <em><strong>all</strong></em> joined in the endeavour of making the world a safer place to be, and each have our own stories.
+                                <a href="#" class="link-pink fw-bold"
+                                   data-bs-toggle="modal" data-bs-target="#storyModal">
+                                   We'd love to hear yours.
+                                </a>
+                            </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex flex-column align-items-center">
-                            <blockquote class="blockquote text-center">
-                                <p class="mb-4 fs-4 nycd">"Safeguarding saved my life. The counsellors and community helped me through my darkest times."</p>
-                                <figcaption class="blockquote-footer">Aisha, 27</figcaption>
-                            </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-4" aria-labelledby="user-stories-heading">
+            <div class="container">
+                <h2 id="user-stories-heading" class="visually-hidden">Survivor Stories</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-10 mb-4">
+                        <div class="p-4">
+                            <p class="nycd-big mb-0">
+                                "As an individual vulnerable to radicalisation, I felt trapped. The information and support I received here empowered me to take control of my situation and reach out for help. I am forever grateful to the Flower Garden."
+                            </p>
+                            <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Sophie, 29</footer>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-10">
+                        <div class="p-4">
+                            <p class="nycd-big mb-0">
+                                "Safeguarding truly saved my life. The stories I read inspired me to believe in being a better person, and the advice from others gave me the tools I needed to move forward. Thank you for giving me hope."
+                            </p>
+                            <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Liam, 35</footer>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!--Safeguarding-->
-    <section class="py-3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-8">
-                    <div class="p-3 p-md-4">
-                        <p class="zain mb-0 text-center">
-                            Safeguarding is tailored to protect people in vulnerable positions from the risk of radicalisation or harm, and encompasses all measures taken to prevent this. We are <em><strong>all</strong></em> joined in the endeavour of making the world a safer place to be, and each have our own stories.
-                            <a href="#" class=" link-pink fw-bold"
-                               data-bs-toggle="modal" data-bs-target="#storyModal">
-                               We'd love to hear yours.
-                            </a>
-                        </p>
-                    </div>
-                </div>
+        <section aria-label="Tell Your Story">
+            <div class="container my-4 d-flex justify-content-center">
+                <button type="button" class="btn btn-lg btn-secondary px-5 auyt story-button"
+                    data-bs-toggle="modal" data-bs-target="#storyModal">
+                    Tell us your Story
+                </button>
             </div>
-        </div>
-    </section>
-    <section class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-10 mb-4">
-                    <div class="p-4">
-                        <p class="nycd-big mb-0">
-                            "As an individual vulnerable to radicalisation, I felt trapped. The information and support I received here empowered me to take control of my situation and reach out for help. I am forever grateful to the Flower Garden."
-                        </p>
-                        <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Sophie, 29</footer>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-10">
-                    <div class="p-4">
-                        <p class="nycd-big mb-0">
-                            "Safeguarding truly saved my life. The stories I read inspired me to believe in being a better person, and the advice from others gave me the tools I needed to move forward. Thank you for giving me hope."
-                        </p>
-                        <footer class="blockquote-footer mt-2" style="color: #a97fd6;">Liam, 35</footer>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="container my-4 d-flex justify-content-center">
-        <button type="button" class="btn btn-lg btn-secondary px-5 auyt story-button"
-            data-bs-toggle="modal" data-bs-target="#storyModal">
-            Tell us your Story
-        </button>
-    </div>
+        </section>
 
-    <div class="modal fade" id="storyModal" tabindex="-1" aria-labelledby="storyModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title auyt" id="storyModalLabel">Tell us your Story</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form action="https://formdump.codeinstitute.net" method="POST">
-              <div class="mb-3">
-                <label for="username" class="form-label">Your Name and Age (optional)</label>
-                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your name">
+        <section aria-label="Your Story Submission Modal">
+            <div class="modal fade" id="storyModal" tabindex="-1" aria-labelledby="storyModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title auyt" id="storyModalLabel">Tell us your Story</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="https://formdump.codeinstitute.net" method="POST">
+                      <div class="mb-3">
+                        <label for="username" class="form-label">Your Name and Age (optional)</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Enter your name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="userstory" class="form-label">Your Story</label>
+                        <textarea class="form-control" id="userstory" name="userstory" rows="5" placeholder="Share your experience..." required></textarea>
+                      </div>
+                      <div class="small mt-2">Thank you for sharing. We may feature your story on our website.</div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" style="background-color:#d2b6e5; border:none; color:#3d2c4a;">Send Story</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="userstory" class="form-label">Your Story</label>
-                <textarea class="form-control" id="userstory" name="userstory" rows="5" placeholder="Share your experience..." required></textarea>
-              </div>
-            <div class="small mt-2">Thank you for sharing. We may feature your story on our website.</div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary" style="background-color:#d2b6e5; border:none; color:#3d2c4a;">Send Story</button>
-          </div>
-          </form>
-        </div>
-      </div>
-    </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="py-4 mt-5 border-top footer-bg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-4 text-start">
-                    <a href="https://facebook.com" target="_blank" class="text-decoration-none me-3">
+                    <a href="https://facebook.com" target="_blank" class="text-decoration-none me-3" aria-label="Facebook">
                         <i class="fab fa-facebook fa-2x pink"></i>
                     </a>
-                    <a href="https://twitter.com" target="_blank" class="text-decoration-none me-3">
+                    <a href="https://twitter.com" target="_blank" class="text-decoration-none me-3" aria-label="Twitter">
                         <i class="fab fa-twitter fa-2x pink"></i>
                     </a>
-                    <a href="https://instagram.com" target="_blank" class="text-decoration-none">
+                    <a href="https://instagram.com" target="_blank" class="text-decoration-none" aria-label="Instagram">
                         <i class="fab fa-instagram fa-2x pink"></i>
                     </a>
                 </div>
                 <div class="col-4 text-center">
-                    <a href="index.html">
+                    <a href="index.html" aria-label="Home">
                         <i class="fas fa-home fa-2x pink"></i>
                     </a>
                 </div>
