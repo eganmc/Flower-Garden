@@ -1,4 +1,4 @@
-<h1 style="display:none">Flower Garden</h1>
+<h1 style="display: none">Flower Garden</h1>
 <img src="assets/images/flower-garden-logo.png" alt="Flower Garden Logo" width="300" style="vertical-align:middle">
 
 # Overview
@@ -8,9 +8,8 @@ The live website can be visited here.
 
 ## Table of Contents
 
-- [Flower Garden](#flower-garden)
-  - [Overview](#overview)
-  - [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
 - [Project Planning](#project-planning)
   - [User Stories](#user-stories)
   - [UX Design](#ux-design)
@@ -23,7 +22,7 @@ The live website can be visited here.
   - [Modal](#modal)
   - [Contact](#contact)
   - [Responsiveness](#responsiveness)
-- [Deployment](#Deployment)
+- [Deployment](#deployment)
 - [AI Implementation](#ai-implementation)
 - [Testing](#testing)
 - [Credits](#credits)
@@ -159,3 +158,12 @@ Will definitely take a look at compressing or formatting generated images in fut
 <img src="assets/images/lighthouse.png" alt="Lighthouse validation image" style="vertical-align:middle">
 
 <br></br>
+
+# Credits
+
+- Code Institute's KPI projects were reviewed for assistance and context.
+- The sample projects posted were used for quality inspiration especially in the creation of this ReadMe, mostly [Spike-Awareness](https://github.com/Emilyhugs/Spike-awareness) by [Emilyhugs](https://github.com/Emilyhugs).
+- Github Copilot assisted heavily with code creation.
+- Microsoft Copilot was instrumental in asset generation.
+- General site layout and theming inspired by [Safe Space](https://safe-space.co.uk/).
+- Thanks to Dillon for being alright with my constant tardiness.
